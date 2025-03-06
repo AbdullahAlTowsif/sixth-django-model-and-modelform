@@ -9,4 +9,4 @@ class Student(models.Model):
     father_name = models.TextField(default='Rahim')
     
     def __str__(self):
-        return f"{self.name} | {self.roll}"
+        return f"{self.name} - {self.roll} - {self.father_name}"
